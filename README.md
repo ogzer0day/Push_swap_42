@@ -30,25 +30,30 @@ ________________________________________________________________________________
 
 	-The numbers are first indexed to simplify comparisons.
 	-The algorithm uses radix sort (LSB-first):
+	
 	    *It processes each bit starting from the least significant bit.
 	    *Depending on the bit value, elements are pushed or rotated between stacks.
+		
 	-This approach ensures efficient sorting even for large input sizes.
 
 # Resources:
 
-    *Technical References:
+    Technical References:
+	
 	-https://en.wikipedia.org/wiki/Radix_sort
 	-https://www.geeksforgeeks.org/binary-representation-of-a-given-number/
-    *AI Usage Disclosure:
+	
+    AI Usage Disclosure:
+	
 	-Clarifying the concept of LSB radix sort.
 	-Reviewing explanations for clarity.
 
 # Features:
 
--Efficient sorting using radix sort (LSB).
+- Efficient sorting using radix sort (LSB).
 
--Handles both small and large input sizes.
+- Handles both small and large input sizes.
 
--Fully compliant with push_swap operation constraints.
+- Fully compliant with push_swap operation constraints.
 
--Memory-safe and norm-compliant (42 standards).
+- Memory-safe and norm-compliant (42 standards).
