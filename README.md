@@ -1,4 +1,4 @@
-_This project has been created as part of the 42 curriculum by mzougari._
+# This project has been created as part of the 42 curriculum by mzougari.
 
 // Description:
 
@@ -8,8 +8,8 @@ The goal of this project is to sort a stack of integers using a limited set of o
 The program takes a list of integers as input, places them into stack A, and sorts them in ascending order using stack B as auxiliary storage. Only specific operations (push, swap, rotate, reverse rotate) are allowed.
 
 In this implementation, the sorting logic is based on a Least Significant Bit (LSB) radix sort strategy, which efficiently sorts numbers by processing their binary representation bit by bit.
-
-// Instructions:
+____________________________________________________________________________________
+# Instructions:
 
    *Compilation:
 
@@ -25,8 +25,8 @@ Run the program by passing a list of integers as arguments, for exemple:
 To remove object files and the executable:
 	-make clean => To remove object files.
 	-make fclean =>To remove object files and the executable.
-
-// Algorithm Overview:
+_____________________________________________________________________________________________
+# Algorithm Overview:
 
 	-The numbers are first indexed to simplify comparisons.
 	-The algorithm uses radix sort (LSB-first):
@@ -34,7 +34,7 @@ To remove object files and the executable:
 	    *Depending on the bit value, elements are pushed or rotated between stacks.
 	-This approach ensures efficient sorting even for large input sizes.
 
-// Resources:
+# Resources:
 
     *Technical References:
 	-https://en.wikipedia.org/wiki/Radix_sort
@@ -43,7 +43,7 @@ To remove object files and the executable:
 	-Clarifying the concept of LSB radix sort.
 	-Reviewing explanations for clarity.
 
-// Features:
+# Features:
 
 -Efficient sorting using radix sort (LSB).
 
