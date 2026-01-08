@@ -14,39 +14,39 @@ ________________________________________________________________________________
    *Compilation:
 
 To compile the project, run:
-	-make => This will generate the push_swap executable.
+	- make => This will generate the push_swap executable.
 	
    *Execution:
 
 Run the program by passing a list of integers as arguments, for exemple:
-        -./push_swap 3 2 5 1 4 => The program will output a sequence of instructions that when applied will sort the stack.
+        - ./push_swap 3 2 5 1 4 => The program will output a sequence of instructions that when applied will sort the stack.
 
    *Cleaning:
 To remove object files and the executable:
-	-make clean => To remove object files.
-	-make fclean =>To remove object files and the executable.
+	- make clean => To remove object files.
+	- make fclean =>To remove object files and the executable.
 _____________________________________________________________________________________________
 # Algorithm Overview:
 
-	-The numbers are first indexed to simplify comparisons.
-	-The algorithm uses radix sort (LSB-first):
+	- The numbers are first indexed to simplify comparisons.
+	- The algorithm uses radix sort (LSB-first):
 	
 	    *It processes each bit starting from the least significant bit.
 	    *Depending on the bit value, elements are pushed or rotated between stacks.
 		
-	-This approach ensures efficient sorting even for large input sizes.
+	- This approach ensures efficient sorting even for large input sizes.
 
 # Resources:
 
     Technical References:
 	
-	-https://en.wikipedia.org/wiki/Radix_sort
-	-https://www.geeksforgeeks.org/binary-representation-of-a-given-number/
+	- https://en.wikipedia.org/wiki/Radix_sort
+	- https://www.geeksforgeeks.org/binary-representation-of-a-given-number/
 	
     AI Usage Disclosure:
 	
-	-Clarifying the concept of LSB radix sort.
-	-Reviewing explanations for clarity.
+	- Clarifying the concept of LSB radix sort.
+	- Reviewing explanations for clarity.
 
 # Features:
 
