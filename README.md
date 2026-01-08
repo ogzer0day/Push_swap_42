@@ -1,6 +1,6 @@
 # This project has been created as part of the 42 curriculum by mzougari.
 
-// Description:
+Description:
 
 push_swap is a sorting algorithm project from the 42 curriculum.
 The goal of this project is to sort a stack of integers using a limited set of operations while minimizing the number of moves.
